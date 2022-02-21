@@ -157,7 +157,7 @@ count = len(driver.find_elements_by_xpath("//tbody[@id='tbodyid']"))
 assert count == 0
 
 # Log out
-driver.find_element_by_xpath("//div[@id='navbarExample']//li[6]//a").click()
+driver.find_element_by_xpath("//div[@id='navbarExample']//li[6]//a").click() 
 
 
 
